@@ -155,33 +155,18 @@ a {
 	line-height: 2;
 }
 
-/* Ref  */
-.ref_item {
-	margin-top: 2rem;
-}
-.ref_name {
-	font-size: 1.6rem;
-	font-weight: 700;
-}
-
-/* eduction */
+/* Education */
 .edu_item {
 	margin-top: 2rem;
 }
 
-/* certification */
-.certification_item {
-	margin-top: 2rem;
-}
-/* exp */
-.exp_item {
-	margin-top: 2rem;
+/* Languages */
+.languages_list {
+	margin-top: 1rem;
+	margin-left: 2rem;
+	line-height: 2;
 }
 
-/* awards */
-.awards_item {
-	margin-top: 2rem;
-}
 /* Interests */
 .interest_items {
 	margin-top: 2rem;
@@ -236,4 +221,28 @@ hr {
 	hr {
 		margin: 0 auto;
 	}
+}
+
+/* Extra Projects */
+.extra-projects {
+	grid-column: 1 / -1;
+}
+.project_item {
+	margin-top: 2rem
+}
+.project_button {
+	display: inline-block;
+	margin-top: 1rem;
+	padding: 0.5rem 0rem;
+	color: var(--primary-color); /* Change text color to primary color */
+	font-size: 1.6rem;
+	font-weight: 500;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+
+}
+
+.project_button:hover {
+	color: #24d7b0; /* Change text color on hover */
 }
